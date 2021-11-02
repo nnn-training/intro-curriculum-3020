@@ -5,9 +5,14 @@ html(lang="ja")
     title 秘密の匿名掲示板
   body
     h1 秘密の匿名掲示板
+    hr
     h2 新規投稿
     form(method="post" action="/posts")
+      h3 投稿内容
       div
-        textarea(name="content" cols=40 rows=4)
+        textarea(name="content" cols=40 rows=4 placeHolder='投稿内容を入力...' style='resize: none;')
+      h3 タグを追加
+      div
+        textarea(name="tag", cols="40", rows="2" placeHolder='タグを追加...（#は不要・空白文字は削除されます・タグは一つにしてください。）' style='resize: none;')
       div
         button(type="submit") 投稿

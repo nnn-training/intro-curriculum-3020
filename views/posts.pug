@@ -3,11 +3,19 @@ html(lang="ja")
   head
     meta(charset="UTF-8")
     title 秘密の匿名掲示板
+    style(type="text/css").
+      body {
+        margin-left: 20px;
+      }
+      textarea {
+        font-size: 15px;
+        padding: .5rem;
+      }
   body
     h1 秘密の匿名掲示板
     h2 新規投稿
     form(method="post" action="/posts")
       div
-        textarea(name="content" cols=40 rows=4)
+        textarea(name="content" cols=40 rows=4 placeholder="今どうしてる？" autofocus)
       div
         button(type="submit") 投稿

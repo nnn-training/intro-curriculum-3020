@@ -3,8 +3,8 @@ const http = require('node:http');
 const router = require('./lib/router');
 
 const server = http.createServer((req, res) => {
-    router.route(req, res);
-  })
+  router.route(req, res)
+})
   .on('error', e => {
     console.error('Server Error', e);
   })

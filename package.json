@@ -10,5 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "pug": "3.0.2"
-  }
+  },
+  "repository": "git@github.com:kayu-chi/intro-curriculum-3020.git"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "nn-chat",
+  "name": "NN-chat",
   "version": "1.0.0",
   "description": "NNチャット",
   "main": "index.js",
@@ -8,6 +8,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "pug": "3.0.3"
-  }
+    "pug": "^3.0.3"
+  },
+  "repository": "git@github.com:harua-962/intro-curriculum-3020.git"
 }

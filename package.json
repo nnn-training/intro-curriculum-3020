@@ -9,5 +9,6 @@
   "license": "MIT",
   "dependencies": {
     "pug": "3.0.3"
-  }
+  },
+  "repository": "https://github.com/NakaNWebDev/intro-curriculum-3020.git"
 }
